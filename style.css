@@ -103,6 +103,12 @@ header{
     color: white;
     padding-right: 10px;
 }
-.view{
+.work{
+    transition: 0.7s ease-in-out;
+    display: inline-block;
 
+}
+
+.work :hover{
+    transform: scale(1.1);
 }
