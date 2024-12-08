@@ -1,0 +1,108 @@
+.root{
+    --main-color: #3a6cf4;
+}
+
+header{
+    background-color: bisque;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    z-index: 999;
+}
+
+.Logo{
+    text-decoration: none;
+    color: cornflowerblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navigation{
+    margin-right: 350px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 40px; 
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navigation a:hover{
+    color: brown;
+}
+
+.Main{
+    background: url(Bachground.png) no-repeat ;
+    width: 100;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: cornflowerblue ;
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0px 5px 25px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+.cards{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.card .icon{
+    text-align: center;
+    color: var(--main-color);
+    font-size: 7em;
+}
+
+#skill{
+    text-align: center;
+    font-size: 45px;
+}
+
+#project{
+    text-align: center;
+    font-size: 45px;
+ 
+}
+ 
+.main-items{
+    color: white;
+    padding-left: 20px;
+    display: block;
+}
+
+.Social-Icons a{
+    color: white;
+    padding-right: 10px;
+}
+.view{
+
+}
